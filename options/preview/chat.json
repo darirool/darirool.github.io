@@ -1,0 +1,76 @@
+[
+  { "msgs": ["Hi，Assalamualaikum Beb"], "msgInputSpeed": 80 },
+  {
+    "msgs": ["Kamu tau hari ini hari apa ? tau dong wkwk"],
+    "msgInputSpeed": 80,
+    "triggerNextAction": {
+      "type": "userInput",
+      "options": {
+        "resolveKeyTexts": ["hari ulangtahunku", "ulangtahunku", "kamis"],
+        "rejectKeyTexts": [],
+        "rejectHitTexts": [
+          "Masa gk tau hari ini hari apa ? wkwk",
+          "Hari ini hari KAMIS tau wkwk"
+        ]
+      }
+    }
+  },
+  { "msgs": ["Ya betul sekali hehe"], "msgInputSpeed": 80 },
+  {
+    "msgs": ["Tapi ada yang spesial nih di hari Kamis ini, kamu tau ? hehe"],
+    "msgInputSpeed": 80,
+    "triggerNextAction": {
+      "type": "userInput",
+      "options": {
+        "resolveKeyTexts": [
+          "hari ulangtahunku",
+          "ulangtahunku",
+          "aku ulang tahun",
+          "tau"
+        ],
+        "rejectKeyTexts": [],
+        "rejectHitTexts": ["Pasti pura pura gk tau nih haha"]
+      }
+    }
+  },
+  {
+    "msgs": ["Yaudah aku kasih tau aja deh wkwk"],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": ["Buka video ini aja deh wkwk"],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": ["<vlog src='options/preview/vlogs/vid1.mp4'/>"],
+    "triggerNextAction": { "type": "componentClose" }
+  },
+  {
+    "msgs": [
+      "<span style=\"color: red;\">HAPPY BIRTDAY TO YOU 🥳 HAPPY BIRTDAY TO YOU 🥳</span>"
+    ],
+    "msgInputSpeed": 100
+  },
+  { "msgs": ["<img src='options/preview/imgs/gif.gif'/>"] },
+  { "msgs": ["HAPPY BIRTDAY SAYANG 🤗"], "msgInputSpeed": 80 },
+  { "msgs": ["Ciee dah 23 tahun nih wkwk"], "msgInputSpeed": 80 },
+  {
+    "msgs": ["pesan pesannya disini aja deh, dibuka ya hehe"],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": ["<letter src='options/preview/letter.json'/>"],
+    "triggerNextAction": { "type": "componentClose" }
+  },
+  { "msgs": ["Gimana seneng gk nih hehe, dapet salam juga nih hehe"] },
+  {
+    "msgs": ["<vlog src='options/preview/vlogs/vid2.mp4'/>"],
+    "triggerNextAction": { "type": "componentClose" }
+  },
+  {
+    "msgs": ["Cie di ucapin selamat ulangtaun sama Pak Jokowi wkwk"],
+    "msgInputSpeed": 80
+  },
+  { "msgs": ["Semoga seneng deh ya..."], "msgInputSpeed": 80 },
+  { "msgs": ["Makasih uda nyimak hehe 🥰"], "msgInputSpeed": 80 }
+]
