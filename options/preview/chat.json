@@ -1,7 +1,7 @@
 [
   { "msgs": ["Hi，Assalamualaikum Beb"], "msgInputSpeed": 80 },
   {
-    "msgs": ["Kamu tau hari ini hari apa ? tau dong wkwk"],
+    "msgs": ["Kamu tau kira kira ini ada apa ? tau dong wkwk"],
     "msgInputSpeed": 80,
     "triggerNextAction": {
       "type": "userInput",
@@ -9,15 +9,15 @@
         "resolveKeyTexts": ["hari ulangtahunku", "ulangtahunku", "kamis"],
         "rejectKeyTexts": [],
         "rejectHitTexts": [
-          "Masa gk tau hari ini hari apa ? wkwk",
-          "Hari ini hari KAMIS tau wkwk"
+          "Masa gk tau bakal ada apa ? wkwk",
+          "Ada yang SPESIAL loh buat kamu wkwk"
         ]
       }
     }
   },
-  { "msgs": ["Ya betul sekali hehe"], "msgInputSpeed": 80 },
+  { "msgs": ["Penasaran ? hehe"], "msgInputSpeed": 80 },
   {
-    "msgs": ["Tapi ada yang spesial nih di hari Kamis ini, kamu tau ? hehe"],
+    "msgs": ["Apaan tuh yang kira kira spesial, kamu tau ? hehe"],
     "msgInputSpeed": 80,
     "triggerNextAction": {
       "type": "userInput",
